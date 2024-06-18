@@ -5,30 +5,40 @@ body{
     background-image: url("img/background.jpeg");
 }
 #title{
-    margin-top: 3rem;
-    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
 #titleText{
-    font-weight: 600;
-    font-size: 30px;
-    margin-left: 1rem;
+    font-weight: 400;
+    font-size: 36px;
 }
 #logoImg{
-    position: absolute;
-    top: 3.3rem;
-    right: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
 .logo{
     border-radius: 100%;
-    width: 60px;
-    height: 60px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 3px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
+}
+#welcome{
+    font-weight: 200;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
 }
 #content{
     width: 70%;
     height: 100px;
     margin-left: 15%;
-    margin-top: 8rem;
+    margin-top: 2rem;
 }
 #list{
     background-color: white;
