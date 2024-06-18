@@ -1,0 +1,26 @@
+.text{
+    font-family: "Crimson Text", serif;
+}
+body{
+    background-image: url("img/background.jpeg");
+}
+#title{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+#titleText{
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 1rem;
+}
+#logoImg{
+    position: absolute;
+    top: 3.5rem;
+    right: 3rem;
+}
+.logo{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
