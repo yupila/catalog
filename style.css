@@ -1,6 +1,10 @@
 .text{
     font-family: "Crimson Text", serif;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 body{
     background-image: url("img/background.jpeg");
 }
@@ -20,8 +24,6 @@ body{
 }
 .logo{
     border-radius: 100%;
-    border-style: solid;
-    border-color: grey;
     border-width: 3px;
     width: 80px;
     height: 80px;
@@ -48,6 +50,7 @@ body{
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 25px;
+    font-weight: 400;
 }
 #footer{
     font-weight: 800;
@@ -55,8 +58,6 @@ body{
     position: fixed;
     left: 1rem;
     bottom: 0;
-    text-decoration: none;
-    color: black;
 }
 #Capa_1{
     margin-left: 3px;
