@@ -24,6 +24,21 @@ body{
     height: 60px;
     object-fit: cover;
 }
+#content{
+    width: 70%;
+    height: 100px;
+    margin-left: 15%;
+    margin-top: 8rem;
+}
+#list{
+    background-color: white;
+    margin-bottom: 0.7rem;
+}
+.textInList{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+}
 #footer{
     font-weight: 800;
     font-size: 13px;
