@@ -24,3 +24,16 @@ body{
     height: 60px;
     object-fit: cover;
 }
+#footer{
+    font-weight: 800;
+    font-size: 13px;
+    position: fixed;
+    left: 1rem;
+    bottom: 0;
+    text-decoration: none;
+    color: black;
+}
+#Capa_1{
+    margin-left: 3px;
+    margin-right: 3px;
+}
